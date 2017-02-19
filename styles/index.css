@@ -1,7 +1,8 @@
 ﻿body {
 }
 
-.game1_btn{
+.game_btn{
     padding-left:25px;
     margin-left:20px;
+    margin-bottom:5px;
 }
