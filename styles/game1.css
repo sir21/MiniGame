@@ -8,3 +8,21 @@ canvas {
     display: block; 
     margin: 0 auto; 
 }
+
+.header{
+    
+}
+
+.controls{
+    margin-top:5px;
+}
+
+.page_header{
+    text-align:center;
+    font-family:Arial;
+}
+
+p{
+    text-align:center;
+    font-family:'Bookman Old Style';
+}

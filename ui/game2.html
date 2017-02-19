@@ -3,14 +3,35 @@
 <head>
     <title>Game 02</title>
 	<meta charset="utf-8" />
+    <!--Bootstap style-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
     <!--style sheet-->
     <link href=".././styles/game2.css" rel="stylesheet" />
 </head>
 <body>
+    <div class="header">
+        <h1 class="page_header">Mini Game</h1>
+    </div>
     <canvas id="main" width="480" height="270"></canvas>
+    <div class="controls">
+        <p>Press 
+            <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-circle-arrow-up"></span> Up
+            </button> 
+        to move up the block
+        </p>
+        <p>Press 
+            <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-circle-arrow-down"></span> Down
+            </button> 
+        to move down the block
+        </p>
+    </div>
 
     <!--JQuery 3.1.1 library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+    <!--Bootstrap library-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
     <!--js file-->
     <script src=".././scripts/game2.js" type="text/javascript"></script>
 </body>
