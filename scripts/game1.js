@@ -3,7 +3,7 @@ var context = canvas.getContext("2d"); //define context of the canvas
 
 //time interval of frames
 var frame;
-var frame_Intervel;
+var frame_Intervel = 10;
 var stage = 0;
 var brick_data;
 

@@ -155,7 +155,7 @@ function score() {
     context.fillText("Score: " + Math.floor(frameNo / scoreDivider), 8, 20);
 
     if ((Math.floor(frameNo) % 1500) == 0) {
-        frameRate *= 1.1;
+        frameRate *= 1.2;
     }
 }
 

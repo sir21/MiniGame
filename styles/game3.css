@@ -1,0 +1,28 @@
+﻿* { 
+    padding: 0; 
+    margin: 0; 
+}
+    	
+canvas { 
+    background: #000000; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.header{
+    
+}
+
+.controls{
+    margin-top:5px;
+}
+
+.page_header{
+    text-align:center;
+    font-family:Arial;
+}
+
+p{
+    text-align:center;
+    font-family:'Bookman Old Style';
+}
