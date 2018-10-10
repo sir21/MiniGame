@@ -199,11 +199,11 @@ function win(side) {
     if (side == "R") {
         context.font = "48px Arial";
         context.fillStyle = "green";
-        context.fillText("WIN RIGHT SIDE", wCanvas/2 - 175, hCanvas/2 -24);
+        context.fillText("Right side WINS!", wCanvas/2 - 175, hCanvas/2 -24);
     } else {
         context.font = "48px Arial";
         context.fillStyle = "green";
-        context.fillText("WIN LEFT SIDE", wCanvas / 2 - 180, hCanvas / 2 - 24);
+        context.fillText("Left side WINS!", wCanvas / 2 - 180, hCanvas / 2 - 24);
     }
 }
 
