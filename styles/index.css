@@ -1,8 +1,25 @@
 ﻿body {
+    margin: 5em 1em 1em 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: right;
 }
 
 .game_btn{
-    padding-left:25px;
-    margin-left:20px;
-    margin-bottom:5px;
+    margin: 1em 1em 1em 1em;
+    width: 125px;
+}
+
+.jumbotron {
+    background-color: slategrey;
+}
+
+img {
+    width: 300px;
+    height: 300px;
 }
